@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2048px" height="1019px" viewBox="0 0 2048 1019" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>background pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="47.4867044%" y1="3.98060398%" x2="47.4867044%" y2="93.1082417%" id="linearGradient-1">
+            <stop stop-color="#4A90E2" stop-opacity="0.7" offset="0%"></stop>
+            <stop stop-color="#96C7FF" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="47.4867044%" y1="93.1082417%" x2="47.4867044%" y2="3.98060398%" id="linearGradient-2">
+            <stop stop-color="#4A90E2" stop-opacity="0.38" offset="0%"></stop>
+            <stop stop-color="#96C7FF" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="background-pattern">
+            <g transform="translate(-873.000000, -58.000000)">
+                <rect id="Rectangle-3" fill="#F7F9FA" transform="translate(1897.000000, 567.500000) scale(-1, 1) translate(-1897.000000, -567.500000) " x="873" y="58" width="2048" height="1019"></rect>
+                <polygon id="Rectangle-3" fill-opacity="0.29" fill="#C7DEF6" transform="translate(2112.000000, 286.500000) scale(-1, -1) translate(-2112.000000, -286.500000) " points="2834 0 3680 573 544 573"></polygon>
+                <polygon id="Rectangle-3" fill="url(#linearGradient-1)" transform="translate(1479.500000, 634.000000) scale(-1, 1) translate(-1479.500000, -634.000000) " points="2101 201 2101 1067 858 1067"></polygon>
+                <polygon id="Rectangle-3" fill="url(#linearGradient-2)" points="2921 21 2921 1077 0 1077"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

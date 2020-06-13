@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Student Surveys</title>
+</head>
+<body>
+  <header>
+      <nav>
+        <a href="index.html"><img src="img/logo.png" alt="Kit Richert, Ph.D."></a>
+        <div class="divider"></div>
+        <ul>
+          <li class="active"><a href="index.html">Work</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="resume.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div class="container">
+    <div class="project-heading">
+      <h1>Student Survey Design</h1>
+      <h4>Desktop | iOS | Android</h6>
+    </div>
+    <div class="background row">
+      <div class="background-text col-9">
+        <h3>BACKGROUND</h3>
+        <p>Cerego recieved a grant from the Bill & Melinda Gates Foundation to develop ‘Next Generation Courseware’ for community colleges.  When it came time to evaluate our pilot program, we found it both difficult and expensive to incentivise students to complete emailed surveys. I led the design of a flexible survey tool that would move the survey inside the Cerego learning application. </p>
+      </div>
+      <div class="roles col">
+        <h6>ROLES</h6>
+        <ul>
+          <li>Research</li>
+          <li>UX/UI Design</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-9">
+        <h3>FINDING OUR MVP</h3>
+        <p>Our initial goal was to improve response rates to the Gates grant surveys, but we also saw a broader business potential for our survey tool.  Cerego didn't need all the features of Survey Monkey, but we did need a tool that would be flexible for a variety of survey designs and question types.</p>
+        <p>My research included:</p>
+        <ul>
+          <li>work with Cerego's science team to gather current survey samples</li>
+          <li>interviews with 6 Cerego partners to understand needs and use-cases for surveys</li>
+          <li>evaluation of the components and designs of various survey tools on the market</li>
+        </ul>
+
+        <p>Some of the key findings were:</p>
+        <ul>
+          <li>most partners wanted surveys to be optional (so we needed a skip button)</li>
+          <li>likert scale, or "rating scale" style questions were most prevalent</li>
+          <li>the ability to organize question groups into sections was key</li>
+          <li>Typeform's UI had a <a href="https://www.typeform.com/help/whats-the-average-completion-rate-of-a-typeform">57% response rate (comparable to our paid surveys)</a></li>
+        </ul>
+        <p>Following these steps, I worked with a PM and engineer to discuss my findings and arrive at a core set of survey components. Unfortunately, adopting the Typeform-style UI would have doubled the engineering resources needed for the project, so for MVP we elected to take a simpler approach.</P>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-9">
+        <h3>SURVEY COMPONENT DESIGN</h3>
+        <p>We elected to launch with 5 question types, allowing for the collection of both quantitative and qualitative data. Below is the blueprint for our MVP survey components. All modules are optional and customizable.</p>
+        <img class="project1" src="img/survey-components.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-9">
+        <h3>'THANK YOU' SCREEN</h3>
+        <p>This feedback helps users know that their survey was sumbitted successfully.  It also gives survey creators a place to write a short debrief (i.e., you'll get your giftcard in a 2 weeks). </p>
+        <img class="project1" src="img/thankyou.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-9">
+        <h3>ERROR STATES</h3>
+        <img class="project1" src="img/errors.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-9">
+        <h3>RESULTS</h3>
+        <p>Our previous response rate for our Gates Grant survey was 52%.  This used an emailed Survey Monkey link with a $10 giftcard incentive. Our test of the new in-app survey design used the same survey questions, but left out the financial incentive. We achieved a comparable response rate of 56%, but without having to spend a dime on financial incentives.  Simply placing the survey in front of learners as they completed a study session was enough to elicit a strong response rate. <strong><em>It also saved Cerego several thousands of dollars </em></strong>in financial incentives.  Overall a huge success of our MVP!</p>
+    </div>
+  </div>
+
+<h6 class="getintouch">Want to discuss your project?</h6>
+  <a href="contact.html"><button class="git-button">
+    Get in Touch
+  </button></a>
+</div>
+  <!-- end container -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
