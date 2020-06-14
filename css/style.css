@@ -263,6 +263,7 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 
 .card:hover .cs {
   opacity: 1;
+  font-size: 14px;
 }
 
 .card-subheading {
@@ -289,6 +290,7 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   opacity: 0;
   border-bottom: solid 4px #2E353F ;
   color: #2E353F;
+  font-size: 12px;
 }
 
 
