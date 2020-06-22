@@ -125,8 +125,8 @@ h4 {
 
 h5 {
   font-family: calibre-bold;
-  color:#2E353F;
-  font-size: 1em;
+  color:#495970;
+  font-size: 1.25em;
 
 
 }
@@ -179,7 +179,7 @@ a:hover {
 
 .overlay {
   position: relative;
-  top:-32px;
+  top:-72px;
   z-index: -10;
 }
 
@@ -206,7 +206,16 @@ a:hover {
 }
 
 .margin-top {
-  margin: 80px 0 0 0;
+  margin: 80px 0 40px 0;
+}
+
+.underline {
+  border-bottom: 1px solid #ccc;
+  height: 30px;
+}
+
+.shadow {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .active {
