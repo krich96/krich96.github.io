@@ -94,16 +94,17 @@ nav .divider {
 }
 
 h1 {
-  font-family: calibre-black;
+  font-family: calibre-bold;
   color:#2E353F;
   font-size: 2.5em;
   margin: .4em 0;
 }
 
 h2 {
-  font-family: calibre-black;
+  font-family: calibre-bold;
   color:#2E353F;
   font-size: 2.5em;
+  margin-bottom: 0;
   text-align: center;
 }
 
@@ -111,14 +112,14 @@ h3 {
   color: #D71B5D;
   font-size: 2em;
   text-align: center;
-  font-family: calibre-bold;
+  font-family: calibre-semibold;
   margin-bottom: 40px;
 }
 
 h4 {
   color: #56947A;
   text-align: left;
-  font-family: calibre-bold;
+  font-family: calibre-semibold;
   font-size: 2em;
 
 }
@@ -154,15 +155,13 @@ a:hover {
 
 }
 
-
-.ka-heading {
+.project-heading {
   margin: 0px auto;
-  max-width: 600px;
+  max-width: 80%;
 }
 
-.cerego-heading {
-  margin: 190px auto;
-  max-width: 510px;
+.project-heading img {
+  max-width: 100%;
 }
 
 .callout  {
