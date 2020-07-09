@@ -27,26 +27,26 @@
     <div class="section-container">
       <h2>Kitchen Appetite for iOS</h2>
       <h5>ROLE: RESEARCH, UX/UI DESIGN, PRODUCT MANAGEMENT - 2020</h5>
-      <p>Kitchen Appetite is a Kickstarter-funded project by entrepreneur Ben Gulick.  This app helps home cooks discover simple dishes they can create with ingredients they have on hand. Perfect for quarantine!</p>
+      <p>Kitchen Appetite is a Kickstarter-funded app that helps home cooks discover simple meals they can make with foods they have on hand. Perfect for quarantine! I was brought on to revamp the UX and UI midway through it's development.</p>
     </div>
 
 
     <div class="section-container">
-        <h3>The Problem(s)</h3>
-        <p>I was brought onboard to revamp the UX and UI of a prototype app for Kitchen Appetite, but soon saw that there were greater problems surrounding the core product, value proposition and understanding of the user.  In short, the problem was that the app was a solution looking for a problem.</p>
-        <p>An overseas development team built a fully-functional app from a set of lo-fidelity wireframes (from another designer). <span class="emphasis">Here is the 'before' app:</span></p>
-
-        <img src="img/ka-oldproto.gif" alt="">
-
-        <div class='spacer'></div>
-
-        <p>The original product vision was an effortless recipe-finding experience where a user could 'scan' ingredients they have on hand using their phone camera (i.e. Shazam for your fridge). <a href="https://www.kickstarter.com/projects/kitchenappetite/kitchen-appetite" target="blank">See the product description on kickstarter</a>.</p>
+        <h3>The Problem</h3>
 
         <div class="two-columns">
-          <p class="half-width"><span class="caption">Here is my illustration of the envisioned experience </span></p>
-          <img class="half-width" src="img/vision.png" alt="">
+          <p class="half-width">The original vision for Kitchen Appetite was an effortless recipe-finding experience where a user could 'scan' ingredients they had on hand using their phone camera (i.e. Shazam for your fridge).<span class="flex-break">Although I was brought on for interface design, I soon found that there were deeper issues with the core value proposition of the app and understanding of the user.</span><span class="flex-break">Part of this project was discovering our eventual problem statement: <span class="emphasis">people often don't know what to make with the food the have</span>.</span></p>
+
+        <figure class="half-width">
+          <img src="img/vision.png" alt="">
+          <figcaption>The original concept was an app that could scan food with a phone camera and suggest recipes.</figcaption>
+        </figure>
         </div>
       <div class='spacer'></div>
+
+      <p>An overseas development team built a functional prototype from a set of lo-fidelity wireframes (from another designer). <span class="emphasis">Here is the 'before' app:</span></p>
+
+      <img src="img/ka-oldproto.gif" alt="">
 
        <p class="emphasis">I tested the prototype and found some key problem areas:</p>
 
@@ -54,6 +54,10 @@
          <li>
            <p class="emphasis">1. The image-recognition API was error-prone.</p>
            <p>Current technology could not achieve the effortless food-scanning experience envisioned by the founder. For this technology to be useful (and not just a gimmick), it would have to be as easy and accurate as typing into a search bar.</p>
+
+             <img class="shadow" src="img/beef.png" alt="">
+
+
          </li>
          <li>
            <p class="emphasis">2. Searching recipes by ingredients had limitations.</p>
@@ -65,9 +69,7 @@
          </li>
        </ul>
 
-       <div class='spacer'></div>
-       <p>After discussing much discussion with the founder, we agreed that the right step would be to stop development and do some research before jumping into a new design. </p>
-       <p>We also arrived at a hypothesized problem statment for the app to solve: <span class="emphasis"> People often have perishable food items that they don't know what to do with.</span> My research aimed to validate this hypothesis and focus the product toward the needs or real users.</p>
+       <p>After discussing my concerns with the founder, we agreed to do some need-finding research. We also landed on a hypothesis for a problem statment: <span class="emphasis"> People often have perishable food items that they don't know what to do with.</span> My research aimed to validate this hypothesis.</p>
 
   </div>
 
@@ -82,10 +84,8 @@
         <li>1. User interviews</li>
         <li>2. Survey</li>
         <li>3. Technology evaluation (testing other image recognition APIs)
-        <li>4. Competative Analysis of existing recipe apps </li>
+        <li>4. Competitive Analysis of existing recipe apps </li>
       </ol>
-
-      <div class='spacer'></div>
 
       <p>I then created a primary persona for Kitchen Appetite using the results of the user research.</p>
 
@@ -99,37 +99,36 @@
     <div class="section-container">
       <h5> USER INTERVIEWS & SURVEY</h5>
       <div class="two-columns">
-        <p class="half-width" style="margin-right:2em;"> I interviewed 5 participants recruited from the founder's extended network. All 5 made over half of their meals, although many were packaged. 2 of 5 planned weekly meals in advance, with many homecooked meals being 'in the rotation' of recipes. 4 of 5 reported that they improvised in the kitchen, and 2/5 said they would often be unsure how they would prepare a food item they had. 5/5 said searching by ingredient would be helpful, but were skeptical of image recognition being helpful.</p>
-        <img class="half-width" src="img/interview.png" alt="">
+        <p class="half-width">  I interviewed 5 individuals between the ages of 26 and 48. All made over half of their meals, although many were packaged. 2 of 5 planned weekly meals in advance, with many homecooked meals being 'in the rotation' of recipes. 4 of 5 reported that they improvised in the kitchen, and 2/5 said they would often be unsure how they would prepare a food item they had. 5/5 said searching by ingredient would be helpful, but were skeptical of image recognition being helpful.</p>
+        <div class="half-width">
+        <img class="shadow" src="img/interview.png" alt="">
+        </div>
       </div>
 
-      <p>To discover more about the user persona I developed a survey to give to Kitchen Appetite backers (from Kickstarter) and social media communities.  Although this sample was not representative of all possible home cooks, it was a starting place from which the minimum viable product could be based.  The goal was to discover more about the needs and painpoints around cooking and recipe-finding, and validate our hypothesis. </p>
-      <p>One key assumption was that <strong>not knowing </strong> what to cook is a big problem. In our sample of 22 survey respondants.  This assumption got some support.  When asked to select what their biggest barrier to cooking was,  47% chose “Not enough time” but second to that, 24% chose “not knowing what to cook” was their biggest barrier. </p>
+      <p>To discover more about the user persona I developed a survey to give to Kitchen Appetite backers (from Kickstarter) and social media communities. One key assumption was that <strong>not knowing </strong> what to cook is a big problem. In our sample of 22 survey respondants.  This assumption got strong support.  When asked to select what their biggest barrier to cooking was,  47% chose “Not enough time” but second to that, 24% marked “not knowing what to cook." </p>
       <img src="img/graph.png" alt="">
-      <p>Exploratory questions about habits and goals provided further information about the contexts and goals of the respondants. Below are two examples.</p>
-      <img src="img/graph2.png" alt="">
-      <p>Insights such as these helped us understand the type of situation our home cook persona was.  They are most likely working people, cooking solo, for others. The goal of making a meal everyone will like was more pressing than the goal of making something interesting or amazing. When asked for recipe hunting techniques, the top two were "meals under 30 minutes" and "recipes for ingredients you have onhand." </p>
+      <p>Exploratory questions helped us understand the needs, goals, and habits of our primary cook persona. They were most likely working people, cooking for their family. The goal of making a meal everyone would like was more pressing than the goal of making something interesting or amazing.</p>
     </div>
 
 
        <div class="section-container">
         <h5> TECHNOLOGY ASSESSMENT</h5>
-         <p>The Yummly, Google Vision, and Amazon Rekognition were some of the alternative food image recognition APIs to ours (Calorie Mama).  Yummly has already deployed this API to 'Smart Appliances' from Whirlpool that can visually scan and identify foods and give you recipe recommendations based on what it sees.</p>
-         <p>My testing of all of these APIs found that none were accurate enough to provide the food recognition / recipe recommendation experience.  Even accurately identified foods were often tagged according to a general category (i.e., cheese but not blue cheese), which can have big implications for recipes.  Furthermore, packaged foods were not universally recognizable (Calorie Mama couldn't recognize them at all).</p>
-         <p>The founder was excited to pursue this technology, and wanted to include it in the app beta.  However we agreed it would be a secondary way to add ingredients and not the primary flow.</p>
+         <p>The Yummly, Google Vision, and Amazon Rekognition were some of the alternative food image recognition APIs to ours (Calorie Mama). My testing of all of these APIs found that none were accurate enough with food recognition to compete with a search bar.  Even accurately identified foods were often tagged according to a general category (i.e., cheese but not blue cheese), which can have big implications for recipes.</p>
+         <p>The founder was excited to pursue this technology, and wanted to include it in the app beta.  However we agreed it would be a secondary way to add ingredients and not the primary means.</p>
     </div>
 
 
+      <img src="img/ka-competition.png" alt="" style="width:100%;">
      <div class="section-container">
-      <h5> COMPETATIVE ANALYSIS</h5>
-      <img src="img/ka-competition.png" alt="">
+      <h5> COMPETITIVE ANALYSIS</h5>
+
 
       <p>I evaluated several different apps in terms of their user experience and product focus. Most had a range of recipe levels (easy to complex). Several helped you build a shopping list and purchase groceries. Yummly was the only app that offered flow of adding a few ingredients to find a recipe (e.g. improvising with whats on hand). The recipe matches for this flow were not always so simple.  When considering the user interviews I had completed, it was clear that if cooks were in the mode of improvising a meal, recipe matches that were simple needed to prioritized (so little to no shopping was required).
     </div>
 
     <div class="section-container">
      <h5>PERSONA CREATION & PRODUCT DEFINITION </h5>
-     <img src="img/full-persona.png" alt="">
+     <img src="img/full-persona.png" class="shadow" alt="">
      <p><span class="emphasis">The new pitch:</span> Kitchen Appetite helps you improvise a simple meal with foods you have on hand.</p>
      <p>The research validated the hypothesis that people get stuck knowing what to make. Solving this problem resonated with the founder, even though image recognition wouldn't be the main way we solved it.  We loved the idea of helping someone like Jess improvise a simple delicious meal (only one app we saw did that). The recipe ideas would be simple rather than aspirational, with the simplest shown first. This refocusing inspired the founder to start building branded 'ingredient guides' that help users make simple meals from a basic ingredient.</p>
 
@@ -149,24 +148,23 @@
 
     <div class="section-container">
       <h3>Wireframes, Prototype, and Testing</h3>
-      <img src="img/ka-wire.png" alt="">
-      <p>After journey mapping, I drafted a full wireframe of the app.  This is only a portion of the wireframe shown. </p>
-
-      My next step was to build a full lo-fidelity prototype.  One my of key design choices was to downplay the food and scanning technology.  Although this was the original vision for the app, it would take more R&D and machine learning to add ingredients with the speed and accuracy of a search bar.</p>
-      <p> I brought this wireframe to the development team. They found no real problems except one.  The image scanner needed a button in order to limit the number of API calls to the image recognition service we were using.  That was simple enough to add.</p>
+      <p>I created a set of wireframes and put them into a lo-fidelity prototype. </p>
       <div class="two-columns">
-        <p class="half-width" style="margin-right:2em;"> User testing sessions were conducted with 5 individuals. 5/5 were able to add an ingredient using all 3 methods. The participants also appreciated the narrow focus of the app and emphasis on simple recipes only.</p>
-        <img class="half-width" src="img/wireframe.jpg" alt="">
+        <p class="half-width margin-top-none"> I brought this wireframe to the development team. They found no real problems except one.  The image scanner needed a button in order to limit the number of API calls to the image recognition service we were using.  That was simple enough to add. <span class="flex-break">User testing sessions were conducted with 5 individuals. 5/5 were able to add an ingredient using all 3 methods. The participants also appreciated the narrow focus of the app and emphasis on simple recipes only.</span></p>
+        <div class="half-width">
+        <img src="img/wireframe.jpg" alt="">
+        </div>
 
     </div>
 
     <div class="project-container">
     <h3>Visual Design and Hi-fidelity Mockups</h3>
-    <img src="img/ka-logo.png" alt="" style="display: block; width:25%">
-    <p class="bubble"> Simple</p> <p class="bubble">Joyful</p> <p class="bubble">Supportive</p>
+    <img src="img/words.png" alt="">
+    <!-- <img src="img/ka-logo.png" alt="" style="display: block; width:25%">
+    <p class="bubble"> Simple</p> <p class="bubble">Joyful</p> <p class="bubble">Supportive</p> -->
     <p> These were the three words Ben felt captured the Kitchen Appetite brand. He wanted the vibe to touch on nostalgia, family in the kitchen, and something playful but mature. The logo inspiration was colored alphabet fridge magnets.  The logo had many wonderful colors to play with. </p>
     <img src="img/mood.png" alt="">
-    <p> I created a mood board to try and capture the vibe and color palette.  I took the green, brown, and blue from the logo and a lighter blue for a simple palette. I decided that ingredient photography could use simple backgrounds and food photography would be more complex, showing process (stirring) or plating on casual-looking tables or counters. I felt we could also use custom illustration for Kitchen Appetite's ingredient guides (in process), and thought a simple, abstract illustration style would work well with the brand. </p>
+    <p> I created a mood board to express the visual identity and color palette.  I took the green, brown, and blue from the logo and a lighter blue for a simple palette. I decided that ingredient photography could use simple backgrounds and recipe photography would be more complex, showing process (stirring) or plating on casual-looking tables or counters. I felt we could also use custom illustration for Kitchen Appetite's ingredient guides (in process), and thought a simple, abstract illustration style would work well with the brand. </p>
     <p> I applied the style and developed a design system. Below are the final mockups for adding ingredients. </p>
     <img src="img/meeps.png">
     <p class="margin-bottom-40">The previous prototype of kitchen appetite allowed for unlimited ingredients (but a limit of 6 ingredients to search).  This limited allowance of 3 ingredients eliminated this clutter, and the popup result of the simplest recipe idea focused the experience to meet the needs of our persona.  Below are the other screens in the app.</p>
