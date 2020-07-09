@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styleprojects.css">
+  <title>Course Management Redesign</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="logo">kit<span style="color:#D71B5D;">richert</span><span style="font-size:18px;">phd</span></a>
+    <div class="divider"></div>
+    <ul>
+      <li class="active">Work</li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</li></a>
+    </ul>
+  </nav>
+
+  <div class="project-heading">
+    <img src="img/cerego-header.png" alt="cerego logo">
+  </div>
+
+  <div class="project-container">
+    <h2>Course Management Redesign</h2>
+    <h3>Cerego - 2020</h3>
+    <p class="margin-bottom-40">Cerego is an adaptive learning platform designed around the science of memory.  Most new learning is forgotten within a week. Cerego helps students build knowledge that lasts with a distributed practice algorithm.  Content is used in higher education, corporate training, and the military.</p>
+
+
+    <img src="img/project1a.png">
+
+    <div class="callout overlay">
+      <h4>The problem</h4>
+      <p><span style="font-family:calibre-semibold;">Corporate clients were often confused</span> by the existing navigation.  In particular, it was unexpected that content had to be built in a separate library and imported into a course (which was a design advantageous for publishers).</p>
+      <img src="img/oldnav.gif">
+    </div>
+
+    <h4 class="margin-bottom-40">Courses were also bit confusing to navigate</h4>
+
+    <img class="margin-bottom-40"src="img/old-courses.png">
+
+
+
+  </div>
+
+    <h3>Researching customer needs, goals, and workflows</h3>
+    <img src="img/data.png" alt="" height="185px" style="margin:auto; display:block; max-width:100%">
+<div class="project-container">
+    <p>Before jumping into a design solution, we (a product manager and myself) further explored the problem space with several methods:</p>
+    <p><span style="font-family:calibre-semibold;">1.  Data analysis</span> to establish baseline usage of different course management features </p>
+    <p><span style="font-family:calibre-semibold;">2.  Customer interviews</span> to assess customer needs, goals, and workflows around course management</p>
+    <p><span style="font-family:calibre-semibold;">3.  Employee interviews </span>to validate hypotheses about our new “corporate trainer persona"</p>
+    <p><span style="font-family:calibre-semibold;">The insights:</span> Our current corporate customers launched approximately 25 courses with around 40 students per course.  Some existing features (such as bulk actions on courses) were not used, whereas other features such as content sharing were used differently depending on organizations.  However, all research confirmed that users wanted to create content within courses.</p>
+ 
+    <p class="margin-bottom">We found that customers had different needs around sharing content between multiple courses.  Previously, Cerego's design of a content catalog meant that one assignment could be shared with many courses, and an edit would propagate to all courses using it.  In the new design, with content being "owned" by a course, we had thought it would be advantageous for shared content to be hard copied into new courses.  Our customer research found that there were mixed needs around this, and some clients said it was essential to be able to push edits to shared content from a single source.  Although it required more engineering work, we elected to make it possible for users to decide whether they wanted a hard copy or to accept edits from the master.</p>
+
+    <h3>Redesigning the core nav</h3>
+    <p class="margin-bottom-40">The previous navigation included a top nav bar "product switcher" which updated options in the side nav.  Some products had no need of this side nav, whereas others needed a multi-level nav.  One of the goals of this project was to create a very simple navigation and use breadcrumbs to get back from deeper areas of the site. In order to create a mobile-friendly experience, we opted to provide a single breadcrumb to take the user back up one level.</p>
+    <div class="callout">
+      <h4>The goal</h4>
+      <p><span style="font-family:calibre-semibold;">Simplify the navigation</span> to improve the discoverability of courses and content creation.</p>
+      <img src="img/chart.png">
+    </div>
+</div>
+    <h3 class="margin-top">Wireframing and user testing</h3>
+    <img src="img/wires.png" height="250px" style="margin:40px auto; display:block; max-width:100%">
+
+<div class="project-container">
+    <p>The design process began with sketching and paper prototypes.  Iterations became digital, with increasingly higher fidelity.  Using invision, we tested a medium-fidelity course management prototype with 3 newer customers in our target vertical.
+    The results showed:</p>
+    <p><span style="font-family:calibre-semibold;">3/3</span> could navigate to a specific course from the homepage</p>
+    <p><span style="font-family:calibre-semibold;">3/3</span> knew how to add an assignment to a course </p>
+    <p><span style="font-family:calibre-semibold;">2/3 </span>could publish a course (this prompted an iteration)</p>
+    <p><span style="font-family:calibre-semibold;">2/3 </span>could add goals and due dates to assignments (this prompted an iteration) </p>
+    <p>One key finding was that users wanted more clarification on how due dates would behave for users (ex: what happened after the date passed).  We opted to put a help button above each table to address questions.</p>
+
+
+    <h3 class="margin-top">Final designs: multiple states</h3>
+    <img class="shadow" src="img/empty@2x.png">
+
+    <h5 class="margin-top underline">Full course list</h5>
+    <img class="shadow" src="img/filled@2x.png">
+    <h5 class="margin-top underline">Empty course (leads you to your first step)</h5>
+    <img class="shadow" src="img/course-detail-description@2x.png">
+    <h5 class="margin-top underline">Set up, but unpublished</h5>
+    <img class="shadow" src="img/course-detail-unpub@2x.png">
+    <h5 class="margin-top underline">Published course</h5>
+    <img class="shadow" src="img/course-detail-published@2x.png">
+    <h5 class="margin-top underline">Published to the learning library (self-enrollment)</h5>
+    <img class="shadow" src="img/course-detail-learning-library@2x.png">
+    <h5 class="margin-top underline">Archived course</h5>
+    <img class="shadow" class="margin-bottom-40" src="img/course-detail-archived@2x.png">
+
+    <p class="margin-top">This project launched in April 2020.  As of mid-June, the customer success team reported that their new onboarding time has been cut in half because of the new designs.  Another success metric that we will track is the percentage of corporate customers choose to migrate over to our new version (70% is the target for that KPI).  Other targets for the new nav and course management designs are a 20% reduction in total training time for Cerego's customer success managers.  Cerego will continue to maintain the former version for publishers and others.  We are confident this redesign will improve the user experience for our target customer, and I look forward to evaluating the results of this launch.</p>
+
+</div>
+<div class="project-container">
+<p class="git">Want to discuss a project?</p>
+<a href="contact.html"><button>Get in touch</button></a>
+</div>
+
+<!-- end container -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
