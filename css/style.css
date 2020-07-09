@@ -22,11 +22,15 @@
 
 body {
   margin: 0 0 2em 0;
+  font-weight: 400;
   font-family: calibre-reg;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 2em;
+  letter-spacing: .024em;
+  text-rendering: optimizeLegibility;
   background-color: #F7F7F7;
-  color: #2E353F;
-  font-size: 18px;
-  line-height: 1.6;
+  Color: #2E353F;
 }
 
 
@@ -96,9 +100,9 @@ nav .divider {
 
 h1 {
   font-family: calibre-black;
-  color:#2E353F;
+  color:#000;
   font-size: 2.5em;
-  margin: .4em 0;
+  margin: .4em 0 1.67em 0;
 }
 
 h2 {
@@ -110,7 +114,7 @@ h2 {
 
 
 h3 {
-  color: #D71B5D;
+  color: #000;
   font-size: 2em;
   text-align: center;
   font-family: calibre-bold;
@@ -177,10 +181,10 @@ a:hover {
 /* START styling of the homepage portfolio */
 
 h5 {
-  color: #D71B5D;
+  color: #000;
   font-size: 2em;
   font-family: calibre-bold;
-  margin: 1.67em 0 0 0;
+  margin: 2em 0 0.5em 0;
 }
 
 .portfolio {
@@ -205,7 +209,6 @@ h5 {
   flex: 0 0 30%;
   width: 304px;
   height: 410px;
-  /* margin-left: 20px; */
   margin-bottom: 20px;
   display: inline-block;
   box-shadow: 0 5px 10px rgba(0,0,0,0.05);
@@ -233,7 +236,7 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 .card {
     background-color: #fff;
     padding: 20px;
-    margin: 40px 0 25px 0;
+    margin: 1.67em 0 25px 0;
     box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.1);
     border-radius: 2px;
 }
@@ -373,7 +376,7 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .myblurb h1 {
-  margin: 0.2em 0 0 0;
+  margin: 0.2em 0 0.5em 0;
 }
 
 .myblurb p {
@@ -418,10 +421,17 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 
 .contact {
   font-family: calibre-bold;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
 
 }
 
+.margin-bottom-none {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin: 0
+}
 
 /* END styling of the homepage portfolio */
 
