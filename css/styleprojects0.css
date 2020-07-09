@@ -66,7 +66,7 @@ nav ul {
   margin: 0;
   padding: 0;
   font-family: calibre-semibold;
-  color: #2E353F;
+  color: #000;
 }
 
 nav li {
@@ -82,7 +82,7 @@ nav .divider {
 }
 
 nav a {
-  color:#2E353F;
+  color:#000;
   text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 .active {
-  color: #2E353F;
+  color: #000;
   border-bottom: 1px solid #000;
 }
 

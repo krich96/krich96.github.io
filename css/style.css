@@ -24,7 +24,7 @@ body {
   margin: 0 0 2em 0;
   font-family: calibre-reg;
   background-color: #F7F7F7;
-  color: #495970;
+  color: #2E353F;
   font-size: 18px;
   line-height: 1.6;
 }
@@ -245,7 +245,7 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 
 .card-heading  {
   font-family: calibre-semibold;
-  color: #2E353F;
+  color: #000;
   font-size: 1.25em;
 }
 
@@ -269,7 +269,7 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 .card-subheading {
   font-family: calibre-semibold;
   color: #2E353F;
-  font-size: 1em;
+  font-size: .875em;
 }
 
 .card-copy {
