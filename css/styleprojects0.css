@@ -202,6 +202,34 @@ figcaption{
   flex: 50%;
 }
 
+.role-container {
+  background-color: #7ab72d;
+  color: #000;
+}
+
+.check-icon {
+  background-image: url(../img/check-circle.svg);
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+
+.role-container h5 {
+  text-align: left;
+}
+
+.role-container ul {
+  padding: 0;
+}
+
 
 .half-width img {
   width: 100%;
@@ -227,7 +255,7 @@ figcaption{
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 2px;
-  padding: 25px;
+  padding: 30px 40px 40px 40px;
 
 }
 
